@@ -44,9 +44,9 @@ if(!window.DeviceOrientationEvent){
         // STEP 3e: Use the same value to update the position of the slider
         betaSliderSlider.value = Math.round(event.beta);
         // STEP 3f: Capture the gamma value (tilt left/right) and set the textContent for the <output> element
-        gammaValueValue.textContent = Math.round(event.gamma) + "°";
+        gammaValue.textContent = Math.round(event.gamma) + "°";
         // STEP 3g: Use the same value to update the position of the slider
-        gammaSliderSlider.value = Math.round(event.gamma);
+        gammaSlider.value = Math.round(event.gamma);
     })
 }
 
